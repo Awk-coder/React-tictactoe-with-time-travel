@@ -6,6 +6,7 @@ const Square = ({ value, onSquareClick }) => (
   </button>
 );
 
+// i love this app <3
 const Board = ({ xIsNext, squares, onPlay }) => {
   const handleClick = (i) => {
     if (calculateWinner(squares) || squares[i]) return;
