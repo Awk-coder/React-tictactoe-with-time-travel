@@ -1,4 +1,5 @@
 {
+  "//": "testing comments on package.json file",
   "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
